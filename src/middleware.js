@@ -50,6 +50,7 @@ module.exports = function cacheRenderer(nuxt, config) {
     const renderer = nuxt.renderer;
     const renderRoute = renderer.renderRoute.bind(renderer);
     renderer.renderRoute = function(route, context) {
+        //context.req.host added
         const hostname = context.req.hostname || context.req.host;
     	const cacheKey = config.cache.useHostPrefix === true && hostname
     	                ? path.join(hostname, route)
