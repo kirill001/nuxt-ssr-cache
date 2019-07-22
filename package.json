@@ -42,4 +42,8 @@
     "chai": "^4.2.0",
     "mocha": "^6.1.4"
   }
+
+,"_resolved": "https://registry.npmjs.org/nuxt-ssr-cache/-/nuxt-ssr-cache-1.4.3.tgz"
+,"_integrity": "sha512-ia1i0zNFDf1+TnYLEpRKvOE3OpBlYRIljP3OYOEPvg1JH5S777FHLqpOO3d+F6ZioObNzkVMhmwqEzFVQb1QcA=="
+,"_from": "nuxt-ssr-cache@1.4.3"
 }
